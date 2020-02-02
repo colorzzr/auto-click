@@ -1,0 +1,10 @@
+{"event_type": "mouse_click", "extra": {"button": "Button.right", "x_pos": 651, "y_pos": 264}}
+{"event_type": "mouse_click", "extra": {"button": "Button.left", "x_pos": 1033, "y_pos": 327}}
+{"event_type": "mouse_click", "extra": {"button": "Button.right", "x_pos": 695, "y_pos": 141}}
+{"event_type": "mouse_click", "extra": {"button": "Button.left", "x_pos": 750, "y_pos": 160}}
+{"event_type": "button_click", "extra": {"button": "'t'"}}
+{"event_type": "button_click", "extra": {"button": "'e'"}}
+{"event_type": "button_click", "extra": {"button": "'s'"}}
+{"event_type": "button_click", "extra": {"button": "'t'"}}
+{"event_type": "mouse_click", "extra": {"button": "Button.left", "x_pos": 843, "y_pos": 74}}
+{"event_type": "mouse_click", "extra": {"button": "Button.left", "x_pos": 983, "y_pos": 78}}
