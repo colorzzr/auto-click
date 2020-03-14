@@ -1,2 +1,0 @@
-{"event_type": "mouse_click", "extra": {"button": "Button.right", "x_pos": 44, "y_pos": 64}}
-{"event_type": "mouse_click", "extra": {"button": "Button.left", "x_pos": 131, "y_pos": 98}}
