@@ -6,13 +6,22 @@ from threading import Thread, Event
 from datetime import datetime, timedelta
 import time
 import json
+import os
+
+from config import config
+
 
 class record_controller(object):
     """docstring for record_controller"""
     def __init__(self):
         super(record_controller, self).__init__()
         self.start = True
-        self.file = open("./record_%s.txt"%(datetime.now()), 'w')
+
+        # check the display location
+        dir_exist = os.path.isdir(config.RECORD_PATH)
+        if not dir_exist:
+            os.makedirs(config.RECORD_PATH)
+        self.file = open("%srecord_%s.txt"%(config.RECORD_PATH, datetime.now()), 'w')
 
 
 
