@@ -4,8 +4,8 @@ import json
 import time
 
 
-def replay():
-    file = open('record_2020-02-02 12:55:23.809343.txt', 'r')
+def replay(file_):
+    file = open(file_, 'r')
     lines = file.readlines()
 
     mouse = mouses.Controller()
@@ -43,3 +43,5 @@ def replay():
 
         # sleep 0.5 second in case I click too fast
         time.sleep(0.5)
+
+# replay('sss')
